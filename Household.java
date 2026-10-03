@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Household {
+public static void main(String[] args) {
+
+int familyMembers = 10;
+double waterConsumed = 186.9;
+int houseNumber = 352;
+char waterStatus = 'H';
+
+System.out.println("Household Details");
+System.out.println("Number of family members: " + familyMembers);
+System.out.println("Water consumed: " + waterConsumed + " litres");
+System.out.println("House number: " + houseNumber);
+System.out.println("Water usage status: " + waterStatus);
+    }
+}
